@@ -69,6 +69,7 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #masthead {
+    position: relative;  /* Add this line */
     background-color: $primary-color;
 }
 #masthead-no-image-header {

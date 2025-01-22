@@ -1,0 +1,47 @@
+---
+layout: default
+format: category-index
+# Feeling Responsive Theme Category Layout
+---
+<div class="row t30">
+    <div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
+        <!-- Header Section -->
+        {% include _category_header.html %}
+
+        <!-- Breadcrumb Navigation -->
+        {% if page.breadcrumb == true %}
+            {% include _breadcrumb.html %}
+        {% endif %}
+
+        <div class="blog-index">
+            <!-- Category Description -->
+            <div class="category-description">
+                {{ content }}
+            </div>
+
+            <!-- Posts in Category -->
+            {% assign category = page.category | default: page.title | downcase %}
+            {% for post in site.categories[category] %}
+                {% include _post_preview.html %}
+            {% endfor %}
+
+            <!-- Pagination -->
+            {% if paginator.total_pages > 1 %}
+                {% include _pagination.html %}
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    {% if page.sidebar %}
+        {% include _category_sidebar.html %}
+    {% endif %}
+</div>
+
+<!-- Social Sharing -->
+{% include _social_sharing.html %}
+
+<!-- Comments Section -->
+{% if site.disqus_shortname and page.comments == true %}
+    {% include _comments.html %}
+{% endif %}

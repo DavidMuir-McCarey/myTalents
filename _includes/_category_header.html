@@ -1,0 +1,29 @@
+<div class="category-header panel radius">
+    <div class="row">
+        <div class="small-12 columns">
+            {% if page.image.title %}
+            <div class="header-image">
+                <img src="{{ site.urlimg }}{{ page.image.title }}" 
+                     width="970" 
+                     alt="{{ page.title | escape_once }}" 
+                     itemprop="image">
+                {% if page.image.caption %}
+                <figcaption class="text-right">
+                    {{ page.image.caption }}
+                </figcaption>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            <h1>{{ page.title }}</h1>
+            {% if page.subheadline %}
+            <p class="subheadline">{{ page.subheadline }}</p>
+            {% endif %}
+            {% if page.teaser %}
+            <p class="teaser">{{ page.teaser }}</p>
+            {% endif %}
+            
+            {% include _meta_information.html %}
+        </div>
+    </div>
+</div>

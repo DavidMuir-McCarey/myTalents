@@ -1,0 +1,1034 @@
+Directory Structure for: C:\Users\david\jekyll\my-portfolio-site 
+Created on: Mon 06/01/2025 at  7:26:45.89 
+ 
+Files: 
+    .gitignore 
+    .ruby-version 
+    404.html 
+    about.markdown 
+    directory_structure.txt 
+    dirlist.bat 
+    FilesDirectoryList.txt 
+    Gemfile 
+    Gemfile.lock 
+    index.markdown 
+    jekyll-theme-feeling-responsive.gemspec 
+    LICENSE 
+    listAllFiles.bat 
+    README.md 
+    _config.yml 
+    _config_dev.yml 
+    .gitignore 
+    .ruby-version 
+ 
+[Directory: .git] 
+    Files: 
+        config 
+        description 
+        FETCH_HEAD 
+        HEAD 
+        index 
+        packed-refs 
+ 
+    [Directory: hooks] 
+        Files: 
+            applypatch-msg.sample 
+            commit-msg.sample 
+            fsmonitor-watchman.sample 
+            post-update.sample 
+            pre-applypatch.sample 
+            pre-commit.sample 
+            pre-merge-commit.sample 
+            pre-push.sample 
+            pre-rebase.sample 
+            pre-receive.sample 
+            prepare-commit-msg.sample 
+            push-to-checkout.sample 
+            sendemail-validate.sample 
+            update.sample 
+ 
+    [Directory: info] 
+        Files: 
+            exclude 
+ 
+    [Directory: logs] 
+        Files: 
+            HEAD 
+ 
+        [Directory: refs] 
+            Files: 
+ 
+            [Directory: heads] 
+                Files: 
+                    gh-pages 
+ 
+            [Directory: remotes] 
+                Files: 
+ 
+                [Directory: origin] 
+                    Files: 
+                        HEAD 
+ 
+    [Directory: objects] 
+        Files: 
+ 
+        [Directory: info] 
+            Files: 
+ 
+        [Directory: pack] 
+            Files: 
+                pack-a0d1cc96f8f2aa9e24e62edd88028cfe76321ec3.idx 
+                pack-a0d1cc96f8f2aa9e24e62edd88028cfe76321ec3.pack 
+                pack-a0d1cc96f8f2aa9e24e62edd88028cfe76321ec3.rev 
+ 
+    [Directory: refs] 
+        Files: 
+ 
+        [Directory: heads] 
+            Files: 
+                gh-pages 
+ 
+        [Directory: remotes] 
+            Files: 
+ 
+            [Directory: origin] 
+                Files: 
+                    HEAD 
+ 
+        [Directory: tags] 
+            Files: 
+ 
+[Directory: .github] 
+    Files: 
+        FUNDING.yml 
+ 
+[Directory: .jekyll-cache] 
+    Files: 
+        .gitignore 
+        .gitignore 
+ 
+    [Directory: Jekyll] 
+        Files: 
+ 
+        [Directory: Cache] 
+            Files: 
+ 
+            [Directory: Jekyll--Cache] 
+                Files: 
+ 
+                [Directory: b7] 
+                    Files: 
+                        9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910 
+ 
+            [Directory: Jekyll--Converters--Markdown] 
+                Files: 
+ 
+                [Directory: 0e] 
+                    Files: 
+                        7930bd154c3c1b46966d816430a6014cf662a137421ee9ac6bb21aeba48d7e 
+ 
+                [Directory: 24] 
+                    Files: 
+                        0843f954b1dfaa6ebeecb1f3530fa3cc0c9ecfb144910e6f6623bae59a8590 
+ 
+                [Directory: 26] 
+                    Files: 
+                        bd9813a552bb03e4b21ff918aa2ebff0d77193d7296fc4bf845d9d765723ad 
+ 
+                [Directory: 4e] 
+                    Files: 
+                        c7ec6b423f41945caa4c733fd3106531e02d71218b624efd8063dc2339ce54 
+ 
+                [Directory: 54] 
+                    Files: 
+                        d013dc3884a60dd75c528b70676295582c67dd0544661a266be9b6d551b53a 
+ 
+                [Directory: 59] 
+                    Files: 
+                        51c2139a15b46c5c4048a00489b47217264e955793081976aa63865d54ad93 
+ 
+                [Directory: 61] 
+                    Files: 
+                        080826cb2d1e5786dd35dcacf5ad1deb8257456947a14a2dd036855d2877d5 
+ 
+                [Directory: 63] 
+                    Files: 
+                        7e252fa8460c2278df772e6dfbf4934329e2f03a9174070b70d0883886b435 
+ 
+                [Directory: 71] 
+                    Files: 
+                        b61660ffb0624b816fd5eae7c94f7827df03b96ff2c3637a332a34a4d926af 
+ 
+                [Directory: 81] 
+                    Files: 
+                        9ebbaf132d9264fca8663e58aa2bc58c06b2d373d5221a4fbe0356932effd2 
+ 
+                [Directory: 8b] 
+                    Files: 
+                        7381c44be3777bfd6a985837d2e1b2091c3795457036d19fe1b78c294dd9ad 
+                        7e937956ce04798f2ca384805c464f22f0540d4bd2ccc647cea17a666a6063 
+ 
+                [Directory: 8c] 
+                    Files: 
+                        b8a14d1514a1cd3605b5f417ee5b8f624a67e0f2b353cd34b3566c3a759b53 
+ 
+                [Directory: 91] 
+                    Files: 
+ 
+                [Directory: aa] 
+                    Files: 
+ 
+                [Directory: ac] 
+                    Files: 
+ 
+                [Directory: b4] 
+                    Files: 
+ 
+                [Directory: b8] 
+                    Files: 
+ 
+                [Directory: d3] 
+                    Files: 
+ 
+                [Directory: e8] 
+                    Files: 
+ 
+                [Directory: f3] 
+                    Files: 
+ 
+                [Directory: fc] 
+                    Files: 
+                        fdf96b800667e8f191e3e51565d863a1673e04674cd5d6bc59c63d6a39102a 
+ 
+                [Directory: fd] 
+                    Files: 
+ 
+[Directory: assets] 
+    Files: 
+ 
+    [Directory: css] 
+        Files: 
+            atom.scss 
+            rss.scss 
+            styles_feeling_responsive.scss 
+ 
+    [Directory: fonts] 
+        Files: 
+            .fontcustom-manifest.json 
+            fontcustom.yml 
+            iconfont-preview.html 
+            iconfont.css 
+            iconfont.eot 
+            iconfont.svg 
+            iconfont.ttf 
+            iconfont.woff 
+            .fontcustom-manifest.json 
+ 
+        [Directory: svg-files-for-custom-font] 
+            Files: 
+                .fontcustom-manifest.json 
+                archive.svg 
+                browser.svg 
+                calendar.svg 
+                camera.svg 
+                chat.svg 
+                check.svg 
+                chevron-down.svg 
+                chevron-left.svg 
+                chevron-right.svg 
+                chevron-up.svg 
+                circle-with-cross.svg 
+                circle-with-minus.svg 
+                circle-with-plus.svg 
+                cloud.svg 
+                code.svg 
+                cog.svg 
+                dropbox.svg 
+                edit.svg 
+                export.svg 
+                eye.svg 
+                facebook.svg 
+                feather.svg 
+                github.svg 
+                globe.svg 
+                heart-outlined.svg 
+                heart.svg 
+                home.svg 
+                instagram.svg 
+                lab-flask.svg 
+                leaf.svg 
+                linkedin.svg 
+                mail.svg 
+                message.svg 
+                mic.svg 
+                network.svg 
+                paper-plane.svg 
+                pinterest.svg 
+                price-tag.svg 
+                rocket.svg 
+                rss.svg 
+                soundcloud.svg 
+                star-outlined.svg 
+                star.svg 
+                thumbs-down.svg 
+                thumbs-up.svg 
+                tree.svg 
+                tumblr.svg 
+                twitter.svg 
+                upload-to-cloud.svg 
+                video.svg 
+                vimeo.svg 
+                warning.svg 
+                xing.svg 
+                youtube.svg 
+                .fontcustom-manifest.json 
+ 
+    [Directory: img] 
+        Files: 
+            apple-touch-icon-114x114-precomposed.png 
+            apple-touch-icon-120x120-precomposed.png 
+            apple-touch-icon-144x144-precomposed.png 
+            apple-touch-icon-152x152-precomposed.png 
+            apple-touch-icon-180x180-precomposed.png 
+            apple-touch-icon-72x72-precomposed.png 
+            apple-touch-icon-76x76-precomposed.png 
+            apple-touch-icon-precomposed.png 
+            favicon-32x32.png 
+            logo.png 
+            msapplication_tileimage.png 
+            touch-icon-192x192.png 
+ 
+    [Directory: js] 
+        Files: 
+            javascript.js 
+            javascript.min.js 
+            modernizr.js 
+            modernizr.min.js 
+ 
+    [Directory: mediaelement_js] 
+        Files: 
+            background.png 
+            bigplay.fw.png 
+            bigplay.png 
+            bigplay.svg 
+            controls-ted.png 
+            controls-wmp-bg.png 
+            controls-wmp.png 
+            controls.fw.png 
+            controls.png 
+            controls.svg 
+            DO NOT CHANGE THESE FILES. USE -src- FOLDER.txt 
+            flashmediaelement-cdn.swf 
+            flashmediaelement-debug.swf 
+            flashmediaelement.swf 
+            jquery.js 
+            jumpforward.png 
+            loading.gif 
+            mediaelement-and-player.js 
+            mediaelement-and-player.min.js 
+            mediaelement.js 
+            mediaelement.min.js 
+            mediaelementplayer.css 
+            mediaelementplayer.js 
+            mediaelementplayer.min.css 
+            mediaelementplayer.min.js 
+            mejs-skins.css 
+            silverlightmediaelement.xap 
+            skipback.png 
+ 
+    [Directory: xslt] 
+        Files: 
+            atom.xslt 
+            rss.xslt 
+ 
+[Directory: blog] 
+    Files: 
+        archive.html 
+        index.html 
+ 
+[Directory: images] 
+    Files: 
+        gallery-example-1-thumb.jpg 
+        gallery-example-1.jpg 
+        gallery-example-2-thumb.jpg 
+        gallery-example-2.jpg 
+        gallery-example-3-thumb.jpg 
+        gallery-example-3.jpg 
+        gallery-example-4-thumb.jpg 
+        gallery-example-4.jpg 
+        gallery-example-5-thumb.jpg 
+        gallery-example-5.jpg 
+        gallery-example-6-thumb.jpg 
+        gallery-example-6.jpg 
+        gallery-example-7-thumb.jpg 
+        gallery-example-7.jpg 
+        gallery-example-8-thumb.jpg 
+        gallery-example-8.jpg 
+        header-bus-thumb.jpg 
+        header-bus.jpg 
+        header_drop.jpg 
+        header_homepage_13.jpg 
+        header_roadmap_2.jpg 
+        header_roadmap_3.jpg 
+        header_typewriter.jpg 
+        header_unsplash_1.jpg 
+        header_unsplash_12.jpg 
+        header_unsplash_2-970x.jpg 
+        header_unsplash_2.jpg 
+        header_unsplash_4.jpg 
+        header_unsplash_5.jpg 
+        header_unsplash_6.jpg 
+        header_unsplash_7.jpg 
+        header_unsplash_8.jpg 
+        header_unsplash_9.jpg 
+        header_unsplash_leaf.jpg 
+        homepage_typography-thumb.jpg 
+        homepage_typography.jpg 
+        mediaplayer_js-home.jpg 
+        mediaplayer_js-thumb.jpg 
+        mediaplayer_js-title.jpg 
+        pattern_concrete.jpg 
+        presentation-feeling-responsive.jpg 
+        promo-video-start.png 
+        start-video-feeling-responsive-302x182.jpg 
+        typewriter-thumb.jpg 
+        unsplash_9.jpg 
+        unsplash_brooklyn-bridge-thumb.jpg 
+        unsplash_brooklyn-bridge_header.jpg 
+        unsplash_eagle.jpg 
+        video-feeling-responsive-1280x720.jpg 
+        video-feeling-responsive-tutorial-frontpage.jpg 
+        webdesign_screenshot_andersneu.jpg 
+        webdesign_screenshot_jcorneille.jpg 
+        webdesign_screenshot_moritz_sauer.jpg 
+        webdesign_screenshot_mosonic.jpg 
+        webdesign_screenshot_phlow.jpg 
+        widget-1-302x182.jpg 
+        widget-github-303x182.jpg 
+ 
+[Directory: pages] 
+    Files: 
+        changelog.md 
+        contact.md 
+        design.md 
+        documentation.md 
+        getting-started.md 
+        headers.md 
+        info.md 
+        redirected_page.md 
+        roadmap.md 
+        search.md 
+ 
+    [Directory: pages-root-folder] 
+        Files: 
+            404.md 
+            atom.xml 
+            feed.xml 
+            humans.txt 
+            index.md 
+            robots.txt 
+            sitemap.xml 
+ 
+[Directory: _data] 
+    Files: 
+        authors.yml 
+        language.yml 
+        language_de.yml 
+        navigation.yml 
+        network.yml 
+        services.yml 
+        socialmedia.yml 
+ 
+[Directory: _drafts] 
+    Files: 
+        gallery.md 
+        page_all_frontmatter.md 
+        page_simple.md 
+        page_without_image.md 
+        page_with_image.md 
+        page_with_table_of_contents.md 
+        post_without_image.md 
+        post_with_image.md 
+        video.md 
+ 
+[Directory: _includes] 
+    Files: 
+        alert 
+        gallery 
+        list-collection 
+        list-posts 
+        next-previous-post-in-category 
+        sitemap_collection.xml 
+        _breadcrumb.html 
+        _comments.html 
+        _favicon.html 
+        _footer.html 
+        _footer_scripts.html 
+        _frontpage-widget.html 
+        _google_search.html 
+        _head.html 
+        _improve_content.html 
+        _masthead.html 
+        _meta_information.html 
+        _navigation.html 
+        _pagination.html 
+        _sidebar.html 
+        __INSTRUCTIONS.md 
+ 
+[Directory: _layouts] 
+    Files: 
+        blog.html 
+        compress.html 
+        default.html 
+        frontpage.html 
+        page-fullwidth.html 
+        page.html 
+        redirect.html 
+        video.html 
+        xml-style.xsl 
+ 
+[Directory: _posts] 
+    Files: 
+        2025-01-05-welcome-to-jekyll.markdown 
+ 
+    [Directory: design] 
+        Files: 
+            2014-07-09-post-left-sidebar.md 
+            2014-07-10-breadcrumb.md 
+            2014-07-10-page.md 
+            2014-07-10-post-right-sidebar.md 
+            2014-08-19-page-fullwidth.md 
+            2014-09-10-portfolio.md 
+            2014-09-13-grid.md 
+            2014-09-14-video.md 
+            2014-09-15-gallery.md 
+            2014-10-08-header-image-pattern.md 
+            2014-10-09-header-full-width-image.md 
+            2014-10-09-header-image-color.md 
+            2014-10-09-header-logo-only.md 
+            2015-02-10-header-with-text.md 
+            2015-03-12-no-header-but-image.md 
+            2015-08-11-no-header.md 
+            2015-08-15-comments.md 
+            2015-08-16-typography.md 
+            2015-10-15-mediaelement_js.md 
+ 
+[Directory: _sass] 
+    Files: 
+        _01_settings_colors.scss 
+        _02_settings_typography.scss 
+        _03_settings_mixins_media_queries.scss 
+        _04_settings_global.scss 
+        _05_normalize.scss 
+        _06_typography.scss 
+        _07_layout.scss 
+        _09_elements.scss 
+        _10_asciidoc.scss 
+        _11_syntax-highlighting.scss 
+        _functions.scss 
+ 
+    [Directory: foundation-components] 
+        Files: 
+            _accordion.scss 
+            _alert-boxes.scss 
+            _block-grid.scss 
+            _breadcrumbs.scss 
+            _button-groups.scss 
+            _buttons.scss 
+            _clearing.scss 
+            _dropdown-buttons.scss 
+            _dropdown.scss 
+            _flex-video.scss 
+            _forms.scss 
+            _global.scss 
+            _grid.scss 
+            _icon-bar.scss 
+            _inline-lists.scss 
+            _joyride.scss 
+            _keystrokes.scss 
+            _labels.scss 
+            _magellan.scss 
+            _offcanvas.scss 
+            _orbit.scss 
+            _pagination.scss 
+            _panels.scss 
+            _pricing-tables.scss 
+            _progress-bars.scss 
+            _range-slider.scss 
+            _reveal.scss 
+            _side-nav.scss 
+            _split-buttons.scss 
+            _sub-nav.scss 
+            _switches.scss 
+            _tables.scss 
+            _tabs.scss 
+            _thumbs.scss 
+            _toolbar.scss 
+            _tooltips.scss 
+            _top-bar.scss 
+            _type.scss 
+            _visibility.scss 
+ 
+[Directory: _site] 
+    Files: 
+        404.html 
+        atom.xml 
+        directory_structure.txt 
+        dirlist.bat 
+        feed.xml 
+        FilesDirectoryList.txt 
+        humans.txt 
+        index.html 
+        jekyll-theme-feeling-responsive.gemspec 
+        listAllFiles.bat 
+        robots.txt 
+        sitemap.xml 
+ 
+    [Directory: about] 
+        Files: 
+            index.html 
+ 
+    [Directory: assets] 
+        Files: 
+ 
+        [Directory: css] 
+            Files: 
+                atom.css 
+                atom.css.map 
+                rss.css 
+                rss.css.map 
+                styles_feeling_responsive.css 
+                styles_feeling_responsive.css.map 
+ 
+        [Directory: fonts] 
+            Files: 
+                fontcustom.yml 
+                iconfont-preview.html 
+                iconfont.css 
+                iconfont.eot 
+                iconfont.svg 
+                iconfont.ttf 
+                iconfont.woff 
+ 
+            [Directory: svg-files-for-custom-font] 
+                Files: 
+                    archive.svg 
+                    browser.svg 
+                    calendar.svg 
+                    camera.svg 
+                    chat.svg 
+                    check.svg 
+                    chevron-down.svg 
+                    chevron-left.svg 
+                    chevron-right.svg 
+                    chevron-up.svg 
+                    circle-with-cross.svg 
+                    circle-with-minus.svg 
+                    circle-with-plus.svg 
+                    cloud.svg 
+                    code.svg 
+                    cog.svg 
+                    dropbox.svg 
+                    edit.svg 
+                    export.svg 
+                    eye.svg 
+                    facebook.svg 
+                    feather.svg 
+                    github.svg 
+                    globe.svg 
+                    heart-outlined.svg 
+                    heart.svg 
+                    home.svg 
+                    instagram.svg 
+                    lab-flask.svg 
+                    leaf.svg 
+                    linkedin.svg 
+                    mail.svg 
+                    message.svg 
+                    mic.svg 
+                    network.svg 
+                    paper-plane.svg 
+                    pinterest.svg 
+                    price-tag.svg 
+                    rocket.svg 
+                    rss.svg 
+                    soundcloud.svg 
+                    star-outlined.svg 
+                    star.svg 
+                    thumbs-down.svg 
+                    thumbs-up.svg 
+                    tree.svg 
+                    tumblr.svg 
+                    twitter.svg 
+                    upload-to-cloud.svg 
+                    video.svg 
+                    vimeo.svg 
+                    warning.svg 
+                    xing.svg 
+                    youtube.svg 
+ 
+        [Directory: img] 
+            Files: 
+                apple-touch-icon-114x114-precomposed.png 
+                apple-touch-icon-120x120-precomposed.png 
+                apple-touch-icon-144x144-precomposed.png 
+                apple-touch-icon-152x152-precomposed.png 
+                apple-touch-icon-180x180-precomposed.png 
+                apple-touch-icon-72x72-precomposed.png 
+                apple-touch-icon-76x76-precomposed.png 
+                apple-touch-icon-precomposed.png 
+                favicon-32x32.png 
+                logo.png 
+                msapplication_tileimage.png 
+                touch-icon-192x192.png 
+ 
+        [Directory: js] 
+            Files: 
+                javascript.js 
+                javascript.min.js 
+                modernizr.js 
+                modernizr.min.js 
+ 
+        [Directory: mediaelement_js] 
+            Files: 
+                background.png 
+                bigplay.fw.png 
+                bigplay.png 
+                bigplay.svg 
+                controls-ted.png 
+                controls-wmp-bg.png 
+                controls-wmp.png 
+                controls.fw.png 
+                controls.png 
+                controls.svg 
+                DO NOT CHANGE THESE FILES. USE -src- FOLDER.txt 
+                flashmediaelement-cdn.swf 
+                flashmediaelement-debug.swf 
+                flashmediaelement.swf 
+                jquery.js 
+                jumpforward.png 
+                loading.gif 
+                mediaelement-and-player.js 
+                mediaelement-and-player.min.js 
+                mediaelement.js 
+                mediaelement.min.js 
+                mediaelementplayer.css 
+                mediaelementplayer.js 
+                mediaelementplayer.min.css 
+                mediaelementplayer.min.js 
+                mejs-skins.css 
+                silverlightmediaelement.xap 
+                skipback.png 
+ 
+        [Directory: xslt] 
+            Files: 
+                atom.xslt 
+                rss.xslt 
+ 
+    [Directory: blog] 
+        Files: 
+            index.html 
+ 
+        [Directory: archive] 
+            Files: 
+                index.html 
+ 
+        [Directory: page2] 
+            Files: 
+                index.html 
+ 
+        [Directory: page3] 
+            Files: 
+                index.html 
+ 
+        [Directory: page4] 
+            Files: 
+                index.html 
+ 
+    [Directory: changelog] 
+        Files: 
+            index.html 
+ 
+    [Directory: contact] 
+        Files: 
+            index.html 
+ 
+    [Directory: design] 
+        Files: 
+            index.html 
+ 
+        [Directory: breadcrumb] 
+            Files: 
+                index.html 
+ 
+        [Directory: comments] 
+            Files: 
+                index.html 
+ 
+        [Directory: gallery] 
+            Files: 
+                index.html 
+ 
+        [Directory: grid] 
+            Files: 
+                index.html 
+ 
+        [Directory: header-full-width-image] 
+            Files: 
+                index.html 
+ 
+        [Directory: header-image-color] 
+            Files: 
+                index.html 
+ 
+        [Directory: header-image-pattern] 
+            Files: 
+                index.html 
+ 
+        [Directory: header-logo-only] 
+            Files: 
+                index.html 
+ 
+        [Directory: header-with-text] 
+            Files: 
+                index.html 
+ 
+        [Directory: mediaelement_js] 
+            Files: 
+                index.html 
+ 
+        [Directory: no-header] 
+            Files: 
+                index.html 
+ 
+        [Directory: no-header-but-image] 
+            Files: 
+                index.html 
+ 
+        [Directory: page] 
+            Files: 
+                index.html 
+ 
+        [Directory: page-fullwidth] 
+            Files: 
+                index.html 
+ 
+        [Directory: portfolio] 
+            Files: 
+                index.html 
+ 
+        [Directory: post-left-sidebar] 
+            Files: 
+                index.html 
+ 
+        [Directory: post-right-sidebar] 
+            Files: 
+                index.html 
+ 
+        [Directory: typography] 
+            Files: 
+ 
+            [Directory: typography] 
+                Files: 
+                    index.html 
+ 
+        [Directory: video] 
+            Files: 
+                index.html 
+ 
+    [Directory: documentation] 
+        Files: 
+            index.html 
+ 
+    [Directory: getting-started] 
+        Files: 
+            index.html 
+ 
+    [Directory: headers] 
+        Files: 
+            index.html 
+ 
+    [Directory: images] 
+        Files: 
+            gallery-example-1-thumb.jpg 
+            gallery-example-1.jpg 
+            gallery-example-2-thumb.jpg 
+            gallery-example-2.jpg 
+            gallery-example-3-thumb.jpg 
+            gallery-example-3.jpg 
+            gallery-example-4-thumb.jpg 
+            gallery-example-4.jpg 
+            gallery-example-5-thumb.jpg 
+            gallery-example-5.jpg 
+            gallery-example-6-thumb.jpg 
+            gallery-example-6.jpg 
+            gallery-example-7-thumb.jpg 
+            gallery-example-7.jpg 
+            gallery-example-8-thumb.jpg 
+            gallery-example-8.jpg 
+            header-bus-thumb.jpg 
+            header-bus.jpg 
+            header_drop.jpg 
+            header_homepage_13.jpg 
+            header_roadmap_2.jpg 
+            header_roadmap_3.jpg 
+            header_typewriter.jpg 
+            header_unsplash_1.jpg 
+            header_unsplash_12.jpg 
+            header_unsplash_2-970x.jpg 
+            header_unsplash_2.jpg 
+            header_unsplash_4.jpg 
+            header_unsplash_5.jpg 
+            header_unsplash_6.jpg 
+            header_unsplash_7.jpg 
+            header_unsplash_8.jpg 
+            header_unsplash_9.jpg 
+            header_unsplash_leaf.jpg 
+            homepage_typography-thumb.jpg 
+            homepage_typography.jpg 
+            mediaplayer_js-home.jpg 
+            mediaplayer_js-thumb.jpg 
+            mediaplayer_js-title.jpg 
+            pattern_concrete.jpg 
+            presentation-feeling-responsive.jpg 
+            promo-video-start.png 
+            start-video-feeling-responsive-302x182.jpg 
+            typewriter-thumb.jpg 
+            unsplash_9.jpg 
+            unsplash_brooklyn-bridge-thumb.jpg 
+            unsplash_brooklyn-bridge_header.jpg 
+            unsplash_eagle.jpg 
+            video-feeling-responsive-1280x720.jpg 
+            video-feeling-responsive-tutorial-frontpage.jpg 
+            webdesign_screenshot_andersneu.jpg 
+            webdesign_screenshot_jcorneille.jpg 
+            webdesign_screenshot_moritz_sauer.jpg 
+            webdesign_screenshot_mosonic.jpg 
+            webdesign_screenshot_phlow.jpg 
+            widget-1-302x182.jpg 
+            widget-github-303x182.jpg 
+ 
+    [Directory: info] 
+        Files: 
+            index.html 
+ 
+    [Directory: jekyll] 
+        Files: 
+ 
+        [Directory: update] 
+            Files: 
+ 
+            [Directory: welcome-to-jekyll] 
+                Files: 
+                    index.html 
+ 
+    [Directory: redirect-page] 
+        Files: 
+            index.html 
+ 
+    [Directory: roadmap] 
+        Files: 
+            index.html 
+ 
+    [Directory: search] 
+        Files: 
+            index.html 
+ 
+[Directory: .git] 
+    Files: 
+        config 
+        description 
+        FETCH_HEAD 
+        HEAD 
+        index 
+        packed-refs 
+ 
+    [Directory: hooks] 
+        Files: 
+            applypatch-msg.sample 
+            commit-msg.sample 
+            fsmonitor-watchman.sample 
+            post-update.sample 
+            pre-applypatch.sample 
+            pre-commit.sample 
+            pre-merge-commit.sample 
+            pre-push.sample 
+            pre-rebase.sample 
+            pre-receive.sample 
+            prepare-commit-msg.sample 
+            push-to-checkout.sample 
+            sendemail-validate.sample 
+            update.sample 
+ 
+    [Directory: info] 
+        Files: 
+            exclude 
+ 
+    [Directory: logs] 
+        Files: 
+            HEAD 
+ 
+        [Directory: refs] 
+            Files: 
+ 
+            [Directory: heads] 
+                Files: 
+                    gh-pages 
+ 
+            [Directory: remotes] 
+                Files: 
+ 
+                [Directory: origin] 
+                    Files: 
+                        HEAD 
+ 
+    [Directory: objects] 
+        Files: 
+ 
+        [Directory: info] 
+            Files: 
+ 
+        [Directory: pack] 
+            Files: 
+                pack-a0d1cc96f8f2aa9e24e62edd88028cfe76321ec3.idx 
+                pack-a0d1cc96f8f2aa9e24e62edd88028cfe76321ec3.pack 
+                pack-a0d1cc96f8f2aa9e24e62edd88028cfe76321ec3.rev 
+ 
+    [Directory: refs] 
+        Files: 
+ 
+        [Directory: heads] 
+            Files: 
+                gh-pages 
+ 
+        [Directory: remotes] 
+            Files: 
+ 
+            [Directory: origin] 
+                Files: 
+                    HEAD 
+ 
+        [Directory: tags] 
+            Files: 
+ 
+[Directory: .github] 
+    Files: 
+        FUNDING.yml 
+ 
+[Directory: .jekyll-cache] 
+    Files: 
+        .gitignore 
+        .gitignore 
+ 
+    [Directory: Jekyll] 
+        Files: 
+ 
+        [Directory: Cache] 
+            Files: 
+ 
+            [Directory: Jekyll--Cache] 
+                Files: 
+ 
+                [Directory: b7] 
+                    Files: 
+                        9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910 

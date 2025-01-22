@@ -1,0 +1,34 @@
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #2ba6cb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+    
+    &:hover {
+        background: darken(#2ba6cb, 10%);
+        color: #fff;
+    }
+}
+
+.pdf-container {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.header-profile-photo {
+    position: absolute;
+    bottom: 195px;  /* Adjust this to position the photo vertically */
+    left: 60px;     /* Adjust this to position the photo horizontally */
+    z-index: 2;     /* Ensures photo appears above the header image */
+    
+    img {
+        width: 150px;         /* Adjust size as needed */
+        height: 150px;
+        border-radius: 50%;   /* Makes the image circular */
+        border: 0px solid #fff; /* Optional: adds a white border */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: adds subtle shadow */
+    }
+}

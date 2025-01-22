@@ -1,0 +1,74 @@
+// Category Layout Styles
+.category-header {
+    margin-bottom: 2rem;
+    
+    .header-image {
+        margin-bottom: 1rem;
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.post-preview {
+    margin-bottom: 2rem;
+    
+    .preview-image {
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+}
+
+.category-sidebar {
+    .widget {
+        margin-bottom: 2rem;
+        
+        h3 {
+            border-bottom: 1px solid $grey-light;
+            padding-bottom: 0.5rem;
+        }
+    }
+    
+    .tag-cloud {
+        a {
+            display: inline-block;
+            margin: 0.2rem;
+            padding: 0.2rem 0.5rem;
+            background: $grey-light;
+            border-radius: 3px;
+            
+            &:hover {
+                background: $primary-color;
+                color: white;
+            }
+        }
+    }
+}
+
+.social-sharing {
+    margin-top: 2rem;
+    
+    .sharing-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        
+        a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    }
+}
+
+.pagination-wrapper {
+    margin: 2rem 0;
+    
+    .pagination {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+}

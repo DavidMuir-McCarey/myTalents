@@ -1,0 +1,25 @@
+<div class="social-sharing panel radius">
+    <h4>Share this Category</h4>
+    <div class="sharing-buttons">
+        <!-- Twitter -->
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}"
+           target="_blank"
+           class="button small radius secondary">
+            <i class="fa fa-twitter"></i> Tweet
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+           target="_blank"
+           class="button small radius secondary">
+            <i class="fa fa-facebook"></i> Share
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | url_encode }}"
+           target="_blank"
+           class="button small radius secondary">
+            <i class="fa fa-linkedin"></i> Share
+        </a>
+    </div>
+</div>

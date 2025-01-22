@@ -1,0 +1,49 @@
+<div class="medium-4 columns {% if page.sidebar == "left" %}medium-pull-8{% endif %}">
+    <aside class="category-sidebar panel radius">
+        <!-- Recent Posts Widget -->
+        <div class="widget recent-posts">
+            <h3>Recent Posts in {{ page.title }}</h3>
+            <ul class="side-nav">
+                {% for post in site.categories[category] limit:5 %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Categories Widget -->
+        <div class="widget categories">
+            <h3>All Categories</h3>
+            <ul class="side-nav">
+                {% for cat in site.categories %}
+                <li {% if cat[0] == category %}class="active"{% endif %}>
+                    <a href="{{ site.baseurl }}/categories/{{ cat[0] | slugify }}/">
+                        {{ cat[0] | capitalize }} ({{ cat[1].size }})
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- Tags Widget -->
+        <div class="widget tags">
+            <h3>Popular Tags</h3>
+            <div class="tag-cloud">
+                {% assign tags = site.tags | sort %}
+                {% for tag in tags limit:20 %}
+                <a href="{{ site.baseurl }}/tags/#{{ tag[0] | slugify }}" 
+                   class="tag-{{ tag[1].size }}">
+                    {{ tag[0] }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% if page.sidebar.widgets %}
+            {% for widget in page.sidebar.widgets %}
+                {% include _widget_{{ widget.type }}.html %}
+            {% endfor %}
+        {% endif %}
+    </aside>
+</div>
