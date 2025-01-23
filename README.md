@@ -1,3 +1,4 @@
+HEAD
 ## You like and use this theme? Then support me. Just [paypal.me/PhlowMedia](https://www.paypal.me/PhlowMedia) :)
 
 # Newsletter: Stay in Touch for Future Updates
@@ -64,3 +65,7 @@ Click the image to [watch the YouTube-Video-Tutorial][4].
  [8]: http://phlow.github.io/simplicity/
  [9]: #
  [10]: #
+=======
+# myTalents
+A portfolio of my talents
+
