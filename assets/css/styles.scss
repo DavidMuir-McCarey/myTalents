@@ -3,7 +3,9 @@
 sitemap:
   exclude: true
 ---
+
 @charset "utf-8";
+@import "feeling-responsive";
 @import "custom";
 @import "functions.scss";
 @import "01_settings_colors.scss";
