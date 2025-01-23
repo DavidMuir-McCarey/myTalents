@@ -43,7 +43,7 @@ urlimg: 'davidmuir-mccarey.github.io/myTalents/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "assets/img/logo.png" #
 
 # Plugins
 plugins:
@@ -67,6 +67,9 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 markdown           : kramdown
 permalink          : /:categories/:title/
 highlight          : rouge
+sass:
+    sass_dir: _sass
+    style: :compressed
 excerpt_separator  : "<!--more-->"
 include            : ['.htaccess']
 # Exclude these files from your production _site
