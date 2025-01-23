@@ -1,7 +1,18 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default
-title: Home
+layout: frontpage
+title: "My Talents"
+header:
+   image_fullwidth: "header_unsplash_12.jpg"
+widget-1:
+    title: "Test Automation"
+    url: '/test-automation/'
+    text: 'Your text here'
+widget-2:
+    title: "Quantitative Analysis"
+    url: '/quant-analysis/'
+    text: 'Your text here'
+widget-3:
+    title: "Project Management"
+    url: '/project-management/'
+    text: 'Your text here'
 ---
