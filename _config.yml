@@ -110,12 +110,9 @@ compress_html:
 defaults:
   -
     scope:
-      path: ''
-      type: 'pages'
+      path: ""
     values:
-      show_meta: false
-      sidebar: right
-      layout: page
+      layout: "default"
   -
     scope:
       path: ''
