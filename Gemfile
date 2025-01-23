@@ -19,3 +19,5 @@ gem 'coderay', '1.1.1'
 # Faraday gems for HTTP handling
 gem "faraday", "~> 2.7"
 gem "faraday-retry", "~> 2.2"
+
+gem "kramdown-parser-gfm"
