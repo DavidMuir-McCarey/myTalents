@@ -27,7 +27,7 @@ author: phlow
 #
 url: 'https://davidmuir-mccarey.github.io'
 baseurl: '/myTalents'
-
+remote_theme: Phlow/feeling-responsive
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
