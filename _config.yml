@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'My Talents'
+title: 'myTalents'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'My talents as a test and quantative analyst'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'A showcase for my work and blog.'
+description: "A portfolio of my talents"
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
@@ -25,7 +25,7 @@ author: phlow
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://DavidMuir-McCarey.github.io'
+url: 'https://davidmuir-mccarey.github.io'
 baseurl: '/myTalents'
 
 
@@ -64,9 +64,9 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 
 
 # Theme works best with Kramdown (using the table of contents function)
-markdown           : kramdown
-permalink          : /:categories/:title/
-highlight          : rouge
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: rouge
 sass:
     sass_dir: _sass
     style: :compressed
@@ -110,13 +110,12 @@ compress_html:
 defaults:
   -
     scope:
-      path: '' 				# an empty string here means all files in the project
+      path: ''
       type: 'pages'
     values:
-      show_meta: false 	# Hide metadata for all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for pages
+      show_meta: false
+      sidebar: right
+      layout: page
   -
     scope:
       path: ''
